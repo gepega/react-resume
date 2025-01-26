@@ -10,7 +10,7 @@ jobs:
   test-and-sonar:
     name: Run Tests and SonarQube Analysis
     runs-on: ubuntu-latest
-    environment: sonar
+    environment: test
 
     steps:
       # 1. Clona el repositorio
